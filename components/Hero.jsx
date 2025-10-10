@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden pt-16"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
