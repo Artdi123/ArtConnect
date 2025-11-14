@@ -73,11 +73,6 @@ export default function HowItWorks() {
                   {step.description}
                 </p>
               </div>
-
-              {/* Connector Line */}
-              {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-purple-200 to-blue-200 transform translate-x-6 -translate-y-1/2 z-0"></div>
-              )}
             </div>
           ))}
         </div>

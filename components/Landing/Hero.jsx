@@ -6,14 +6,6 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden pt-16"
     >
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-32 h-32 bg-purple-300 rounded-full blur-xl"></div>
-        <div className="absolute top-40 right-32 w-24 h-24 bg-pink-300 rounded-full blur-xl"></div>
-        <div className="absolute bottom-32 left-1/3 w-40 h-40 bg-blue-300 rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 right-20 w-28 h-28 bg-yellow-300 rounded-full blur-xl"></div>
-      </div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Main Headline */}
@@ -62,7 +54,7 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
+          <div className="mt-16 mb-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">500+</div>
               <div className="text-gray-600">Active Artists</div>
@@ -76,13 +68,6 @@ export default function Hero() {
               <div className="text-gray-600">Client Satisfaction</div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
